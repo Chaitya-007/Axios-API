@@ -1,0 +1,10 @@
+/* Movie.css */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /* Adjusted min width to match card width */
+  gap: 100px; /* Increased gap for more space between the cards */
+  padding: 20px;
+}
