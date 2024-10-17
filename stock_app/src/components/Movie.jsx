@@ -5,7 +5,7 @@ import "./Movie.css";
 
 function Movie() {
   const [data, setData] = useState([]);
-  const API = "http://www.omdbapi.com/?s=Avengers&apikey=19e7d45e";
+  const API = "https://www.omdbapi.com/?s=Avengers&apikey=19e7d45e";
 
   const getMovieData = async () => {
     try {
